@@ -1,4 +1,4 @@
-Countrify is a simple pair of stylesheets for DevelopmentSeed's TileMill.  
+carto-countries provides a pair of carto stylesheets for DevelopmentSeed's TileMill.  
 
 Use these to quickly style specific regions (e.g. I only want to show labels for and color Europe) by commenting out the labeled groups.  
 
