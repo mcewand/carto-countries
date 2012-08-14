@@ -82,26 +82,51 @@
   }
   //offsets
   [ADM0_A3='BHR'] {
+    [ScaleRank<3][zoom=3] {
+      text-size: 9;
+      text-dy: -1;
+    }  
     [ScaleRank<4][zoom=4] {
       text-size: 12;
       text-dy: -2;
       text-dx: 0;
-    }  
+    }
+    [ScaleRank<5][zoom=5] {
+      text-size: 14;
+    } 
   }
   [ADM0_A3='KWT'] {
+    [ScaleRank<3][zoom=3]{
+      text-size: 10; 
+    }  
     [ScaleRank<4][zoom=4] {
       text-size: 12;
+    }
+    [ScaleRank<5][zoom=5] {
+      text-size: 14; 
     }  
   }  
   [ADM0_A3='ARE'] {
+    [ScaleRank<3][zoom=3] {
+      text-size: 10; 
+    }  
     [ScaleRank<4][zoom=4] {
        text-name: "[ABBREV]";
     }
+    [ScaleRank<5][zoom=5] {
+       text-size: 14; 
+    }  
   }
   [ADM0_A3='QAT'] {
+    [ScaleRank<3][zoom=3] {
+      text-size: 9; 
+    }  
     [ScaleRank<4][zoom=4] {
       text-size: 12;
-    }  
+    }
+    [ScaleRank<5][zoom=5] {
+      text-size: 14;  
+    }
   }  
   
   
@@ -116,7 +141,7 @@
   [ADM0_A3='WEB'] {
     [ScaleRank<3][zoom=3] {
       text-name: "[ABBREV]";
-      text-size: 12;
+      text-size: 10;
       text-opacity: 1;
     }
     [ScaleRank<4][zoom=4] {
@@ -137,40 +162,88 @@
   }
   //offsets
   [ADM0_A3='GAZ'] {
+    [ScaleRank<3][zoom=3] {
+      text-size: 9;
+      text-dy: 1;
+    }  
     [ScaleRank<4][zoom=4] {
       text-size: 12;
       text-dx: -1;
       text-dy: 3;      
+    }
+    [ScaleRank<5][zoom=5] {
+      text-size: 14;
+      text-dy: 6;
+    }
+    [ScaleRank<9][zoom>5] {
+      text-size: 18;
+      text-dy: 3;
     }  
   }
   [ADM0_A3='ISR'] {
+    [ScaleRank<3][zoom=3] {
+      text-size: 9;
+      text-dx: -1;
+      text-dy: -1;
+    }  
     [ScaleRank<4][zoom=4] {
       text-size: 12;
       text-dx: -2;
       text-dy: -4;
+    }
+    [ScaleRank<5][zoom=5] {
+      text-size: 14;
+      text-dx: -6;
+      text-dy: -2;
+    }
+    [ScaleRank<9][zoom>5] {
+      text-dx: -15;
+      text-dy: -8;
     }  
   }
   [ADM0_A3='JOR'] {
+    [ScaleRank<3][zoom=3] {
+      text-dx: 1;
+      text-dy: 1;
+    }  
     [ScaleRank<4][zoom=4] {
       text-size: 12;
       text-dx: 0;
       text-dy: 1;
-      
+    }
+    [ScaleRank<5][zoom=5] {
+      text-dx: 0;
+      text-dy: 8;
     }  
   }
   [ADM0_A3='LBN'] {
+    [ScaleRank<3][zoom=3] {
+      text-dx: -1;
+    }  
     [ScaleRank<4][zoom=4] {
       text-size: 12;
       text-dx: -1;
-      text-dy: -2;
+      text-dy: 0;
     }  
   }
   [ADM0_A3='WEB'] {
+    [ScaleRank<3][zoom=3] {
+      text-size: 9;
+      text-dx: 1;
+      text-dy: -1;
+    }  
     [ScaleRank<4][zoom=4] {
       text-name: "[ABBREV]";
       text-size: 11;
       text-dx: 1;
       text-dy: -1;
+    }
+    [ScaleRank<5][zoom=5] {
+      text-size: 12;
+      text-dy: -2;
+    }
+    [ScaleRank<9][zoom>5] {
+      text-size: 16;
     }  
   }
   
@@ -241,7 +314,7 @@
   [ADM0_A3='GEO'] {
     [ScaleRank<3][zoom=3] {
       text-name: "[ABBREV]";
-      text-size: 12;
+      text-size: 10;
       text-opacity: 1;
     }
     [ScaleRank<4][zoom=4] {
@@ -262,16 +335,28 @@
   }
   // Offsets
   [ADM0_A3='ARM'] {
+    [ScaleRank<3][zoom=3] {
+      text-dy: -1;
+    }  
     [ScaleRank<4][zoom=4] {
       text-size: 12;
       text-dy: -3;
-    }  
+    }
+    [ScaleRank<5][zoom=5] {
+      text-dy: -4;  
+    } 
   }
     [ADM0_A3='AZE'] {
+    [ScaleRank<3][zoom=3]{
+      text-dy: 1;
+    }  
     [ScaleRank<4][zoom=4] {
       text-size: 12;
       text-dy: 3;
       text-dx: 0;
+    }
+    [ScaleRank<5][zoom=5] {
+      text-dy: 4;  
     }  
   }
 

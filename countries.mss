@@ -14,11 +14,35 @@
   ::fill {
     polygon-opacity: 0;
    
-    // Middle East
+  // Middle East
+  // Gulf
     [ADM0_A3='BHR'] {   
       polygon-fill: @light1;
       polygon-opacity: .6;
     } //Bahrain
+    [ADM0_A3='OMN'] {   
+      polygon-fill: @light2;
+      polygon-opacity: .6;
+    } //Oman  
+    [ADM0_A3='QAT'] {   
+      polygon-fill: @light1;
+      polygon-opacity: .6;
+    } //Qatar  
+    [ADM0_A3='SAU'] {   
+      polygon-fill: @mid1;
+      polygon-opacity: .6;
+    } //Saudi Arabia  
+    [ADM0_A3='ARE'] {   
+      polygon-fill: @dark1;
+      polygon-opacity: .6;
+    } //UAE     
+    [ADM0_A3='YEM'] {   
+      polygon-fill: @light1;
+      polygon-opacity: .6;
+    } //Yemen 
+    
+    
+  //Levant + Turkey
     [ADM0_A3='GAZ'] {   
       polygon-fill: @dark1;
       polygon-opacity: .6;
@@ -43,18 +67,6 @@
       polygon-fill: @light2;
       polygon-opacity: .6;
     } //Lebanon 
-    [ADM0_A3='OMN'] {   
-      polygon-fill: @light2;
-      polygon-opacity: .6;
-    } //Oman  
-    [ADM0_A3='QAT'] {   
-      polygon-fill: @light1;
-      polygon-opacity: .6;
-    } //Qatar  
-    [ADM0_A3='SAU'] {   
-      polygon-fill: @mid1;
-      polygon-opacity: .6;
-    } //Saudi Arabia  
     [ADM0_A3='SYR'] {   
       polygon-fill: @light1;
       polygon-opacity: .6;
@@ -63,20 +75,12 @@
       polygon-fill: @dark1;
       polygon-opacity: .6;
     } //Turkey 
-    [ADM0_A3='ARE'] {   
-      polygon-fill: @dark1;
-      polygon-opacity: .6;
-    } //UAE 
     [ADM0_A3='WEB'] {   
       polygon-fill: @light2;
       polygon-opacity: .6;
     } //West Bank 
-    [ADM0_A3='YEM'] {   
-      polygon-fill: @light1;
-      polygon-opacity: .6;
-    } //Yemen 
-
-    // North Africa
+   
+  // North Africa
     [ADM0_A3='DZA'] {   
       polygon-fill: @mid1;
       polygon-opacity: .6;
@@ -102,7 +106,7 @@
       polygon-opacity: .6;
     } //Western Sahara 
 
-    // Central Asia
+  // Central Asia
     [ADM0_A3='AFG'] {   
       polygon-fill: @light2;
       polygon-opacity: .6;
@@ -125,7 +129,6 @@
       polygon-fill: @light1;
       polygon-opacity: .6;
     } //Kyrgystan
-    
     [ADM0_A3='PAK'] {   
       polygon-fill: @dark1;
       polygon-opacity: .6;
@@ -138,7 +141,6 @@
       polygon-fill: @light1;
       polygon-opacity: .6;
     } //Turkmenistan
-    
     [ADM0_A3='UZB'] {   
       polygon-fill: @dark1;
       polygon-opacity: .6;
@@ -156,7 +158,7 @@
     [ADM0_A3='GEO'] {   
       polygon-fill: @mid1;
       polygon-opacity: .6;
-    } //Azerbaijan
+    } //Georgia
    
      
     // Africa
